@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    height: 860px;
+    background-color: Lightpink;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+
+
+.nav-links {
+    margin: 10px 20px 0 0;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 5px 10px;
+
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-style: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.nav-item a {
+    color:#fff !important;
+    font-weight: bold;
+}
+
+.header-btn {
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    border: 1px solid none;
+    border-radius: 30px;
+    padding: 12px 34px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    border: 2px solid orangered;
+    background: lightpink;
+    color: orangered;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.checked {
+    color: orangered;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 560px;
+    background-color: Lightpink;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    font-weight: bold;
+
+}
+.col ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+/*----- Product page----- */
+.top-bar {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+/* ------Login page ------ */
+.user-profile{
+    margin: 0 0 0 0;
+}
+.user-profile ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 5px 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    
+}
+.user-profile ul li a {
+    color: white;
+    text-decoration: none;
+    font-style: 13px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.user-profile ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: block;
+    margin: 0;
+    transition: 0.5s;
+}
+.user-profile ul li:hover:after{
+    width: 100%;
+}
+.user-profile a{
+    color: gray !important;
+    font-weight: bold;
+}
+
+.submited-btn{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    border: 1px solid none;
+    border-radius: 30px;
+    padding: 7px 90px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.submited-btn:hover{
+    border: 1px solid orangered;
+    background: white;
+    color: orangered;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+/* ------Refg page ------ */
+.submit-btn {
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    border: 1px solid none;
+    border-radius: 30px;
+    padding: 7px 60px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    border: 1px solid orangered;
+    background: white;
+    color: orangered;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+
+
+
